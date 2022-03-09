@@ -1,4 +1,13 @@
-# Bottom drawer for React Native
+# @Iftek/react-native-bottom-drawer
+## Bottom drawer for React Native
+
+Fork from [jacklein/rn-bottom-drawer](https://github.com/jacklein/rn-bottom-drawer)
+
+Merge [#38 - Set the X property when updating ValueXY in Animator.js](https://github.com/jacklein/rn-bottom-drawer/pull/38)
+
+reduce gif size
+
+---
 
 <p align="center">
   <img src="demo.gif" alt="Demo gif" width="300" />
@@ -13,10 +22,10 @@
 
 ## Installation
 
-Install `rn-bottom-drawer`.
+Install `@iftek/react-native-bottom-drawer`.
 
 ```
-npm install rn-bottom-drawer --save
+npm install @iftek/react-native-bottom-drawer --save
 ```
 
 ## Usage Example
@@ -25,7 +34,7 @@ npm install rn-bottom-drawer --save
 ```javascript
 import React from 'react';
 import { View, Text } from 'react-native';
-import BottomDrawer from 'rn-bottom-drawer';
+import BottomDrawer from '@iftek/react-native-bottom-drawer';
 
 const TAB_BAR_HEIGHT = 49;
 
@@ -51,7 +60,7 @@ export default class App extends React.Component {
 }
 
 ```
-[Refer to this code](https://github.com/jacklein/rn-bottom-drawer/issues/7#issuecomment-465554054) if you want to put a **scrollview** within the bottom drawer
+[Refer to this code](https://github.com/jacklein/@iftek/react-native-bottom-drawer/issues/7#issuecomment-465554054) if you want to put a **scrollview** within the bottom drawer
 
 ## Configuration
 
@@ -68,4 +77,4 @@ export default class App extends React.Component {
 | onCollapsed | func | -- | A callback function triggered when the drawer is swiped into down position |
 
 ### Questions?
-Feel free to contact me at [jackdillklein@gmail.com](mailto:jackdillklein@gmail.com) or [create an issue](https://github.com/jacklein/rn-bottom-drawer/issues/new)
+Feel free to contact me at [yuan9090@gmail.com](mailto:yuan9090@gmail.com) or [create an issue](https://github.com/yuan9090/react-native-bottom-drawer/issues/new)
