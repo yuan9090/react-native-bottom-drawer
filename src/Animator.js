@@ -70,7 +70,7 @@ export default class Animator extends Component{
   _transitionTo(position, callback) {
     Animated.spring(this.position, {
       toValue: position
-    }).start(() => this.props.onExpanded());
+    }).start();
     
     this.props.setCurrentPosition(position);
     callback();
