@@ -5,6 +5,8 @@ Fork from [jacklein/rn-bottom-drawer](https://github.com/jacklein/rn-bottom-draw
 
 Merge [#38 - Set the X property when updating ValueXY in Animator.js](https://github.com/jacklein/rn-bottom-drawer/pull/38)
 
+fix: #15 transitionTo do not callback onExpanded (https://github.com/jacklein/rn-bottom-drawer/issues/15)
+
 reduce gif size
 
 ---

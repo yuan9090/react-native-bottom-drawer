@@ -1,6 +1,6 @@
 {
   "name": "@iftek/react-native-bottom-drawer",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "a bottom drawer component for react native",
   "main": "index.js",
   "scripts": {
